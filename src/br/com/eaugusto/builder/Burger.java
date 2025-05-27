@@ -1,4 +1,7 @@
 /**
+ * Represents a customizable Burger with various ingredients.
+ * Acts as the product in the Builder design pattern.
+ * 
  * @author Eduardo Augusto (https://github.com/AsrielDreemurrGM/)
  * @since 26 de mai. de 2025
  */
@@ -13,6 +16,7 @@ public class Burger {
 	private String cheese = "No Cheese";
 	private String sauce = "No Sauce";
 
+	// Getters
 	public String getBun() {
 		return bun;
 	}
@@ -33,6 +37,7 @@ public class Burger {
 		return sauce;
 	}
 
+	// Setters
 	public void setBun(String bun) {
 		this.bun = bun;
 	}
@@ -53,6 +58,9 @@ public class Burger {
 		this.sauce = sauce;
 	}
 
+	/**
+	 * Prints the current configuration of the burger to the console.
+	 */
 	public void print() {
 		System.out.println("Burger is ready! \n" + "Bun: " + bun + "\nMeat: " + meat + "\nCheese: " + cheese
 				+ "\nSalad: " + salad + "\nSauce: " + sauce);

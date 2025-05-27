@@ -1,4 +1,9 @@
 /**
+ * Concrete builder that creates a Cheese Burger.
+ * Implements the steps to set specific ingredients for a cheese burger.
+ * 
+ * This class is a ConcreteBuilder in the Builder pattern.
+ * 
  * @author Eduardo Augusto (https://github.com/AsrielDreemurrGM/)
  * @since 26 de mai. de 2025
  */
@@ -29,6 +34,6 @@ public class CheeseBurgerBuilder extends BurgerBuilder {
 
 	@Override
 	public void buildSauce() {
-		burger.setCheese("Secret Sauce");
+		burger.setSauce("Secret Sauce");
 	}
 }

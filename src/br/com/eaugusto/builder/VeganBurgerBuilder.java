@@ -1,4 +1,9 @@
 /**
+ * Concrete builder that creates a Vegan Burger.
+ * Implements the steps to set vegan-friendly ingredients.
+ * 
+ * This class is a ConcreteBuilder in the Builder pattern.
+ * 
  * @author Eduardo Augusto (https://github.com/AsrielDreemurrGM/)
  * @since 26 de mai. de 2025
  */
@@ -29,6 +34,6 @@ public class VeganBurgerBuilder extends BurgerBuilder {
 
 	@Override
 	public void buildSauce() {
-		burger.setCheese("Vegan Secret Sauce");
+		burger.setSauce("Vegan Secret Sauce");
 	}
 }

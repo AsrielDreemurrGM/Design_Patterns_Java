@@ -1,4 +1,9 @@
 /**
+ * Abstract builder class that defines the steps to build a Burger.
+ * Each concrete builder implements these steps differently.
+ * 
+ * This class serves as the Builder in the Builder design pattern.
+ * 
  * @author Eduardo Augusto (https://github.com/AsrielDreemurrGM/)
  * @since 26 de mai. de 2025
  */
@@ -19,6 +24,11 @@ public abstract class BurgerBuilder {
 
 	abstract void buildSauce();
 
+	/**
+	 * Returns the fully constructed Burger.
+	 * 
+	 * @return the configured Burger instance.
+	 */
 	Burger build() {
 		return burger;
 	}
