@@ -54,7 +54,7 @@ public class Burger {
 	}
 
 	public void print() {
-		System.out.println("Burger is ready! \n" + "Bun: " + bun + " - Meat: " + meat + " - Cheese: " + cheese
-				+ " - Salad: " + salad + " - Sauce: " + sauce);
+		System.out.println("Burger is ready! \n" + "Bun: " + bun + "\nMeat: " + meat + "\nCheese: " + cheese
+				+ "\nSalad: " + salad + "\nSauce: " + sauce);
 	}
 }
