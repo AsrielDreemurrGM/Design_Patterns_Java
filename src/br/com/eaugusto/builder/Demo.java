@@ -7,19 +7,20 @@ package br.com.eaugusto.builder;
 
 public class Demo {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		Burger burger = new Burger();
 
-		burger.setBun("Bun");
-		burger.setSauce("Sauce");
-		burger.setMeat("Meat");
-		burger.setCheese("Cheese");
+		// Manager manager = new Manager(new CheeseBurgerBuilder());
 
-		burger.print();
+		Manager manager = new Manager();
+		manager.setBuilder(new CheeseBurgerBuilder());
 
+		Burger cheeseBurger = manager.buildBurger();
+		cheeseBurger.print();
+
+		// Manager manager2 = new Manager(new VeganBurgerBuilder());
+		manager.setBuilder(new VeganBurgerBuilder());
+
+		Burger veganBurger = manager.buildBurger();
+		veganBurger.print();
 	}
-
 }
