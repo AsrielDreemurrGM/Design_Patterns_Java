@@ -1,0 +1,22 @@
+/**
+ * @author Eduardo Augusto (https://github.com/AsrielDreemurrGM/)
+ * @since 27 de mai. de 2025
+ */
+
+package br.com.eaugusto.factory;
+
+public class WithoutContractFactory extends Factory {
+
+	@Override
+	Car retrieveCar(String requestedGrade) {
+		switch (requestedGrade) {
+		case "A":
+			return new JettaCar(231, "Gas", "Blue");
+		case "B":
+			return new CorollaCar(167, "Gas", "Red");
+		default:
+			System.out.println("The requested grade doesn't exist.");
+			return null;
+		}
+	}
+}
