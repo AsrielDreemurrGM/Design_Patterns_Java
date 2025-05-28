@@ -1,4 +1,8 @@
 /**
+ * Abstract representation of a Car.
+ * Defines common properties and methods shared by all car types.
+ * Concrete car classes extend this to provide specific implementations.
+ * 
  * @author Eduardo Augusto (https://github.com/AsrielDreemurrGM/)
  * @since 27 de mai. de 2025
  */

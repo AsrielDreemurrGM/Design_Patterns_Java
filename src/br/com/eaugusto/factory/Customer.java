@@ -1,4 +1,10 @@
 /**
+ * Represents the client requesting a car.
+ * Holds information about the requested grade and whether a company contract exists.
+ * This information guides the selection of the appropriate car factory.
+ * 
+ * @see Factory
+ * 
  * @author Eduardo Augusto (https://github.com/AsrielDreemurrGM/)
  * @since 27 de mai. de 2025
  */

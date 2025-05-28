@@ -1,4 +1,8 @@
 /**
+ * Demonstrates the Abstract Factory pattern in action.
+ * Depending on the customer's contract, a different factory is selected to create a car.
+ * The selected car is then prepared and its engine is started.
+ *
  * @author Eduardo Augusto (https://github.com/AsrielDreemurrGM/)
  * @since 27 de mai. de 2025
  */
