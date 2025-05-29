@@ -7,7 +7,7 @@
  * @since 27 de mai. de 2025
  */
 
-package br.com.eaugusto.factory;
+package br.com.eaugusto.abstractfactory;
 
 public abstract class Car {
 
