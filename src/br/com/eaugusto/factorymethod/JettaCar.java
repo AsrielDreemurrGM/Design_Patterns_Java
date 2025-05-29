@@ -7,7 +7,7 @@ package br.com.eaugusto.factorymethod;
 
 public class JettaCar extends Car {
 
-	protected JettaCar(int horsePower, String fuelSource, String color) {
+	protected JettaCar() {
 		super(231, "Gasoline", "Blue");
 	}
 }

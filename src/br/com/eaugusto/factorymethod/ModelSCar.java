@@ -7,7 +7,7 @@ package br.com.eaugusto.factorymethod;
 
 public class ModelSCar extends Car {
 
-	protected ModelSCar(int horsePower, String fuelSource, String color) {
+	protected ModelSCar() {
 		super(1020, "Electricity", "Black");
 	}
 }

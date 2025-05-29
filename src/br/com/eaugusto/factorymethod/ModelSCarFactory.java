@@ -5,9 +5,10 @@
 
 package br.com.eaugusto.factorymethod;
 
-public class CorollaCar extends Car {
+public class ModelSCarFactory extends CarFactory {
 
-	protected CorollaCar() {
-		super(167, "Gasoline", "red");
+	@Override
+	public Car createCar() {
+		return new ModelSCar();
 	}
 }
