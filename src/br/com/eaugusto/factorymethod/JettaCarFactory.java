@@ -1,4 +1,7 @@
 /**
+ * Concrete Creator: Factory for creating Jetta cars.
+ * Implements the factory method to return a JettaCar.
+ * 
  * @author Eduardo Augusto (https://github.com/AsrielDreemurrGM/)
  * @since 29 de mai. de 2025
  */

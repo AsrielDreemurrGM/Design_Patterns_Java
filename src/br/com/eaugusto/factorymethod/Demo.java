@@ -1,6 +1,12 @@
 /**
- * Demo class showing how to use the Factory Method pattern to create cars.
- * It creates different car factories and orders cars from them.
+ * Demonstrates the Factory Method pattern in action.
+ * Each specific factory subclass (e.g., CorollaCarFactory, JettaCarFactory)
+ * defines how to create a particular type of car by overriding the factory method.
+ * The client code uses the factory interface to order a car without needing to know
+ * which concrete class is being instantiated.
+ * 
+ * This promotes a low dependency between components and makes it easy to introduce new car types
+ * by simply creating new factory implementations, e.g., a MustangCarFactory.
  * 
  * @author Eduardo Augusto (https://github.com/AsrielDreemurrGM/)
  * @since 29 de mai. de 2025

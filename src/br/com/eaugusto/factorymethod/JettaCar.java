@@ -1,4 +1,6 @@
 /**
+ * Concrete Product: A specific car model - Jetta.
+ * 
  * @author Eduardo Augusto (https://github.com/AsrielDreemurrGM/)
  * @since 29 de mai. de 2025
  */
