@@ -1,4 +1,8 @@
 /**
+ * Subject interface in the Observer pattern.
+ * 
+ * Declares methods for adding, removing, and notifying observers.
+ * 
  * @author Eduardo Augusto (https://github.com/AsrielDreemurrGM/)
  * @since 29 de mai. de 2025
  */
