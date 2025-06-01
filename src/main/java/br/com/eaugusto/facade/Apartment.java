@@ -1,4 +1,8 @@
 /**
+ * Represents an apartment with a number and an address.
+ * 
+ * This is a simple model class used by the ApartmentService.
+ * 
  * @author Eduardo Augusto (https://github.com/AsrielDreemurrGM/)
  * @since 30 de mai. de 2025
  */
@@ -11,8 +15,10 @@ public class Apartment {
 	private String address;
 
 	/**
-	 * @param number
-	 * @param address
+	 * Constructs an Apartment object with the given number and address.
+	 * 
+	 * @param number  The apartment number.
+	 * @param address The apartment address.
 	 */
 	public Apartment(String number, String address) {
 		this.number = number;
@@ -20,30 +26,38 @@ public class Apartment {
 	}
 
 	/**
-	 * @return the address
+	 * Gets the apartment address.
+	 * 
+	 * @return The address.
 	 */
 	public String getAddress() {
 		return address;
 	}
 
 	/**
-	 * @param address the address to set
+	 * Sets the apartment address.
+	 * 
+	 * @param address The address to set.
 	 */
 	public void setAddress(String address) {
 		this.address = address;
 	}
 
 	/**
-	 * @return the code
+	 * Gets the apartment number.
+	 * 
+	 * @return The apartment number.
 	 */
-	public String getCode() {
+	public String getNumber() {
 		return number;
 	}
 
 	/**
-	 * @param code the code to set
+	 * Sets the apartment number.
+	 * 
+	 * @param code The new apartment number.
 	 */
-	public void setCode(String code) {
-		this.number = code;
+	public void setNumber(String number) {
+		this.number = number;
 	}
 }
