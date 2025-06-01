@@ -3,12 +3,12 @@
  * @since 29 de mai. de 2025
  */
 
-package br.com.eagusto.templatemethod;
+package br.com.eaugusto.templatemethod;
 
-public class Firefighter extends Worker {
+public class Cop extends Worker {
 
 	@Override
 	protected void work() {
-		System.out.println("Work as a Firefighter.");
+		System.out.println("Work as a Cop.");
 	}
 }

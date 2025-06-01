@@ -3,7 +3,7 @@
  * @since 31 de mai. de 2025
  */
 
-package br.com.eagusto.adapter;
+package br.com.eaugusto.adapter;
 
 public class DropBoxFile {
 

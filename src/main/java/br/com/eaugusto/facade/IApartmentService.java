@@ -3,7 +3,7 @@
  * @since 30 de mai. de 2025
  */
 
-package br.com.eagusto.facade;
+package br.com.eaugusto.facade;
 
 public interface IApartmentService {
 

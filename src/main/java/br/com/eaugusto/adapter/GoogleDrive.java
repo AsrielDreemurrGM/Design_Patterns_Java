@@ -3,14 +3,14 @@
  * @since 31 de mai. de 2025
  */
 
-package br.com.eagusto.adapter;
+package br.com.eaugusto.adapter;
 
-public class DropBox {
+public class GoogleDrive {
 
-	void upload(DropBoxFile dbFile) {
+	void send(byte[] data, String name) {
 	}
 
-	DropBoxFile download(String id) {
+	byte[] get(String name) {
 		return null;
 	}
 }

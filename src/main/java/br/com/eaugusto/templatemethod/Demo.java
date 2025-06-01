@@ -3,7 +3,7 @@
  * @since 29 de mai. de 2025
  */
 
-package br.com.eagusto.templatemethod;
+package br.com.eaugusto.templatemethod;
 
 public class Demo {
 
