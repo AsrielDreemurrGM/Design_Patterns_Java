@@ -1,4 +1,7 @@
 /**
+ * Demo class to run examples of different Worker implementations.
+ * Demonstrates the Template Method pattern by running daily routines.
+ * 
  * @author Eduardo Augusto (https://github.com/AsrielDreemurrGM/)
  * @since 29 de mai. de 2025
  */
