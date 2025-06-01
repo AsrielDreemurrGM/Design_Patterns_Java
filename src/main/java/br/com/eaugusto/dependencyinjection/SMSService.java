@@ -5,10 +5,10 @@
 
 package br.com.eaugusto.dependencyinjection;
 
-import org.springframework.stereotype.Service;
+//import org.springframework.stereotype.Service;
 
-@Service
-public class SMSService implements MessageService {
+//@Service
+public class SMSService implements IMessageService {
 
 	@Override
 	public void sendMessage(String message, String recipient) {

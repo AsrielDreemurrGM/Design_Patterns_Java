@@ -8,7 +8,7 @@ package br.com.eaugusto.dependencyinjection;
 import org.springframework.stereotype.Service;
 
 @Service
-public class EmailService implements MessageService {
+public class EmailService implements IMessageService {
 
 	@Override
 	public void sendMessage(String message, String recipient) {

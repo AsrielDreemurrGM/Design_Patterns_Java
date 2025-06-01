@@ -5,6 +5,6 @@
 
 package br.com.eaugusto.dependencyinjection;
 
-public interface MessageService {
+public interface IMessageService {
 	void sendMessage(String message, String recipient);
 }
